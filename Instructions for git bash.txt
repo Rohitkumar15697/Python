@@ -1,0 +1,20 @@
+stepts:
+1. Open git bash on the project directory.
+2. Get inside the virtual env:
+	>source django_env/Scripts/activate
+3. get inside the project folder where manage.py is present.
+4. Use command
+	>git init
+	>git add . 	(add all files on current folder to git)
+	>git commit -am 'Initial Commit'
+5. Now create a repository on github and copy the link SSH
+	>git remote add origin "copy repository link here"
+	>git push -u origin master
+
+====For updating the current project====
+1. Get inside the current projects and virtual env then go inside the app level directory
+Note: Perform these commands if you have updated your project or changes something to it.
+2. Commands.
+	>git add .
+	>git commit -am "second commit"
+	>git push	
